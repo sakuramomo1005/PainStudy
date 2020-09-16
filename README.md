@@ -25,10 +25,13 @@ Similar as mental health studies
 For chronic pain
 
 * Jump to reference (J2R): Outcomes after dropout immediately switch to be like those from subjects in the placebo group 
-
-as “copy reference” where
+* copy reference” where
 the outcomes after dropout gradually switch to be like those from
 subjects in the placebo group
+
++ Green.Like all Byzantine agreement protocols, SCP makes no assumptions about the rational behavior of attackers.
+- Red. Like all Byzantine agreement protocols, SCP makes no assumptions about the rational behavior of attackers.
+
 
 ## Estimands and missing data in clinical trials of chronic pain treatments: advances in design and analysis
 Xueya Cai et. al
