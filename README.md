@@ -1,8 +1,32 @@
 # PainStudy
 Pain study
 
+
+### Missing data mechanism
+
+* Missing at Random (MAR): Missing at random means that the propensity for a data point to be missing is not related to the missing data, but it is related to some of the observed data
+
+* Missing Completely at Random (MCAR): The fact that a certain value is missing has nothing to do with its hypothetical value and with the values of other variables.
+
+* Missing not at Random (MNAR): Two possible reasons are that the missing value depends on the hypothetical value (e.g. People with high salaries generally do not want to reveal their incomes in surveys) or missing value is dependent on some other variable’s value (e.g. Let’s assume that females generally don’t want to reveal their ages! Here the missing value in age variable is impacted by gender variable)
+
+
+
 ### Estimands and missing data in clinical trials of chronic pain treatments: advances in design and analysis
 Xueya Cai et. al
+
+require strong and untestable
+assumptions
+
+Control-based imputation,
+
+weighted
+generalized estimating equations
+
+In clinical trials of treatments for chronic pain, the percentage of participants who withdraw early can be as high as 50%. Major
+reasons for early withdrawal in these studies include perceived lack of efficacy and adverse events. Commonly used strategies for
+accommodating missing data include last observation carried forward, baseline observation carried forward, and more principled
+methods such as mixed-model repeated-measures and multiple imputation.
 
 
 ### Estimands in a Chronic Pain Trial: Challenges and Opportunities
@@ -60,5 +84,3 @@ Omar B. Mbowe et. al.
 
 ### Model misspecification: finite mixture or homogeneous?
 
-
-# Missing data
