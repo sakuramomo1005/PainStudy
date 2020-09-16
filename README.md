@@ -26,6 +26,10 @@ For chronic pain
 
 * Jump to reference (J2R): Outcomes after dropout immediately switch to be like those from subjects in the placebo group 
 
+as “copy reference” where
+the outcomes after dropout gradually switch to be like those from
+subjects in the placebo group
+
 ### Estimands and missing data in clinical trials of chronic pain treatments: advances in design and analysis
 Xueya Cai et. al
 
@@ -52,7 +56,7 @@ Methods mentioned
 | Mixed-model repeated-measures (MMRM) | MAR | | |
 |Multiple imputation (MI)| MAR |  | |
 |Weighted generalized estimating equations| MAR | | |
-
+|Control-based imputation|||  | 
 
 ### Estimands in a Chronic Pain Trial: Challenges and Opportunities
 Francesca Callegari et. all
