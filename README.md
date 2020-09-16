@@ -35,6 +35,24 @@ random (MAR) assumption.
 ### Demonstrating Heterogeneity of Treatment Effects Among Patients: An Overlooked but Important Step Toward Precision Medicine
 Jennifer S. Gewandter et. al.
 
+* 4 RCTs with crossover
+* Mixed effect models are fitted. with patient and treatment-by-patient as random effects 
+* Likelihood ratio test: LME with or without treatment-by-patient effect
+* The  treatment-by-patient effect is significant within the RCTs
+* Precision medicine is needed
+
+A mixed-effects
+model, including
+fixed effects for treatment and episode and random effects for 
+interaction, was
+used to assess the heterogeneity in patients’ responses to treatment during each episode
+
+all.1,2 In response to these assumptions,
+which are largely unproven, substantial investments have
+been made to advance “precision medicine,” that is, strategies
+to identify patients who would have a greater response to (or
+less harm from) treatment using either genotyping or phenotyping.
+Th
 
 ### Are there really only 2 kinds of people in the world? Evaluating the distribution of change from baseline in pain clinical trials 
 Omar B. Mbowe et. al.
