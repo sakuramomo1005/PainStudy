@@ -107,9 +107,38 @@ Method:
 * Precision medicine is needed
 
 
-### Are there really only 2 kinds of people in the world? Evaluating the distribution of change from baseline in pain clinical trials 
-Omar B. Mbowe et. al.
+## Are there really only 2 kinds of people in the world? Evaluating the distribution of change from baseline in pain clinical trials 
+***Omar B. Mbowe et. al.***
 
+Bimodal distribution: 
+
+* Different types of patients are assumed: those who respond well to efficacious pain therapies and those who do not respond at all, with few people in the middle
+* If so, researchers may analyse the data based on responders. 
+
+Improper analysis were noticed: 
+
+* Histogram with different bin widths
+* Improper missing data handling methods
+
+Comparison: 
+
+1. Percentage change from baseline, using BOCF to impute missing data 
+
+* Different bin widths of histograms 
+* Equal bin widths
+
+2.Absolute change from baseline, using pattern mixture model assuming MAR
+
+* Different bin widths of histograms 
+* Equal bin widths
+
+Conclusion: 
+
+* Bimodel is not observed with equal bin widths. 
+* "Although our findings neither support nor refute the hypothesis that distinct
+populations of “responders” and “nonresponders” to pain interventions exist, the analyses presented in earlier work do not provide
+support for this hypothesis, nor for the recommendation that pain clinical trials prioritize “responder” analyses, a less efficient analysis
+strategy." 
 
 ### Model misspecification: finite mixture or homogeneous?
 
