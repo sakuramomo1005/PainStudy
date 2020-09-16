@@ -14,21 +14,29 @@ Similar as mental health studies
 * Heterogeneity 
 * Drop-off
 
-### Missing data mechanism
 
-* Missing at Random (MAR): Missing at random means that the propensity for a data point to be missing is not related to the missing data, but it is related to some of the observed data
 
-* Missing Completely at Random (MCAR): The fact that a certain value is missing has nothing to do with its hypothetical value and with the values of other variables.
+## Estimands in a Chronic Pain Trial: Challenges and Opportunities
+Francesca Callegari et. all
 
-* Missing not at Random (MNAR): Two possible reasons are that the missing value depends on the hypothetical value (e.g. People with high salaries generally do not want to reveal their incomes in surveys) or missing value is dependent on some other variable’s value (e.g. Let’s assume that females generally don’t want to reveal their ages! Here the missing value in age variable is impacted by gender variable)
+Discussed about the primary estimand and estimation method 
 
-```diff
-+ Assumption for chronic pain study
+Primary variable: 
 
-* Jump to reference (J2R): Outcomes after dropout immediately switch to be like those from subjects in the placebo group 
-* Copy reference: the outcomes after dropout gradually switch to be like those from subjects in the placebo group
+* Assessed using the 11-point numerical rating scale (0 to 10).
+* Weekly mean, calculated by averaging the seven daily measurements of each week.
+* Record from baseline to the end of the treatment period
 
-```
+Summary measure: 
+
+* Defined as treatment difference of variable means of the study drug and placebo
+
+Primary estimation method: 
+
+* Analysis of covariance (ANCOVA) model including region, treatment, gender, use of concomitant pain medication at baseline as factors and baseline age and baseline mean pain intensity score as covariates
+
+* Missing data will be imputed via multiple imputation using the missing at random (MAR) assumption.
+
 
 ## Estimands and missing data in clinical trials of chronic pain treatments: advances in design and analysis
 Xueya Cai et. al
@@ -45,9 +53,23 @@ Categories of dropout reasons:
 
 Methods to handle missing data require strong and untestable assumptions, e.g. MCAR or MAR. 
 
-The method called control-based imputation might be suitable for chronic pain analysis, since it allows a variety of assumptions to be made concerning the conditional distribution outcomes. 
+### Missing data mechanism
 
-Methods mentioned 
+* Missing Completely at Random (MCAR): Missingness is unrelated to the data and is ignorable
+
+* Missing at Random (MAR): Missingness is related to some observed variables
+
+* Missing not at Random (MNAR): Missingness is related to some unobserved variables
+
+```diff
++ Assumption for chronic pain study
+```
+
+* Jump to reference (J2R): Outcomes after dropout immediately switch to be like those from subjects in the placebo group 
+* Copy reference: the outcomes after dropout gradually switch to be like those from subjects in the placebo group
+
+
+### Missing data handling methods in chronic pain studies
 
 | Method | Assumption | Pros | Cons|
 | --- | --- | --- |--- |
@@ -59,32 +81,9 @@ Methods mentioned
 |Weighted generalized estimating equations| MAR | | |
 |Trimmed means|Treat drop-offs as bad outcomes | | | 
 
-### Estimands in a Chronic Pain Trial: Challenges and Opportunities
-Francesca Callegari et. all
 
-primary estimand and estimation method 
+The method called control-based imputation might be suitable for chronic pain analysis, since it allows a variety of assumptions to be made concerning the conditional distribution outcomes. 
 
-Primary variable: defined as the weekly mean of 24-hr
-average pain score change from baseline to the end of the
-double-blind treatment period and assessed using the 11-
-point numerical rating scale. The 24-hr average pain is
-recorded daily by each patient on a scale from zero (“no
-pain”) to 10 (“pain as bad as you can imagine”). The weekly
-mean is obtained by averaging the seven daily measurements
-of each week.
-
-Summary measure: defined as treatment difference of
-variable means of the study drug and placebo
-
-The primary estimation method (related to the primary estimand)
-will be based on an analysis of covariance (ANCOVA)
-model including region, treatment, gender, use of concomitant
-pain medication at baseline as factors and baseline age and baseline
-mean pain intensity score as covariates
-
-missing data will
-be imputed via multiple imputation using the missing at
-random (MAR) assumption.
 
 ### Demonstrating Heterogeneity of Treatment Effects Among Patients: An Overlooked but Important Step Toward Precision Medicine
 Jennifer S. Gewandter et. al.
