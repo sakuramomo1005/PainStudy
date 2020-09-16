@@ -1,4 +1,14 @@
 
+# Multiple imputation 
+
+* 1. Imputation: Impute the missing entries of the incomplete data sets m times (m=3 in the figure). Imputed values are drawn from a distribution. Simulating random draws doesn’t include uncertainty in model parameters. Better approach is to use Markov Chain Monte Carlo (MCMC) simulation. This step results in m complete data sets.
+
+* 2. Analysis: Analyze each of the m completed data sets.
+
+* 3. Pooling: Integrate the m analysis results into a final result (Rubin's rule)
+
+![](https://github.com/sakuramomo1005/PainStudy/blob/master/Missingness/mi.png)
+
 # Missing Data Programming Methods
 
 This is a summary about the softwares and pacakges that were used in the 9 papers that handling missing data. The summary contains:
