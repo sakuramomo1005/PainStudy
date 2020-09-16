@@ -88,24 +88,24 @@ The method called control-based imputation might be suitable for chronic pain an
 ### Demonstrating Heterogeneity of Treatment Effects Among Patients: An Overlooked but Important Step Toward Precision Medicine
 ***Jennifer S. Gewandter et. al.***
 
+Variability in outcomes
+* variability from the treatment effect 
+* between-patient variability (i.e., variability in the outcome for different patients, irrespective of the treatment)
+* within-patient variability (i.e., variability in the outcome over time, for a given treatment, for individual patients); later, we refer to the latter as “residual” error, 
+* treatment-by-patient interaction (i.e., variability in how patients respond to the treatment).6–10
+
+The variability comes from patients are usually ignored and misinterpreted.
+
+Goal: To investigate whether there is variability from patients 
+
+Method: 
+
 * 4 RCTs with crossover
 * Mixed effect models are fitted. with patient and treatment-by-patient as random effects 
 * ***Likelihood ratio test***: LME with or without treatment-by-patient effect
 * The  treatment-by-patient effect is significant within the RCTs
 * Precision medicine is needed
 
-A mixed-effects
-model, including
-fixed effects for treatment and episode and random effects for 
-interaction, was
-used to assess the heterogeneity in patients’ responses to treatment during each episode
-
-all.1,2 In response to these assumptions,
-which are largely unproven, substantial investments have
-been made to advance “precision medicine,” that is, strategies
-to identify patients who would have a greater response to (or
-less harm from) treatment using either genotyping or phenotyping.
-Th
 
 ### Are there really only 2 kinds of people in the world? Evaluating the distribution of change from baseline in pain clinical trials 
 Omar B. Mbowe et. al.
