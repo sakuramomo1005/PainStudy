@@ -33,18 +33,19 @@ subjects in the placebo group
 ## Estimands and missing data in clinical trials of chronic pain treatments: advances in design and analysis
 Xueya Cai et. al
 
-require strong and untestable
-assumptions
+In clinical trials of treatments for chronic pain, the percentage of participants who withdraw early can be as high as 50%
 
-Control-based imputation,
+Categories of dropout reasons: 
 
-weighted
-generalized estimating equations
+* adverse event (AE)
+* lack of compliance
+* lack of efficacy
+* loss to follow-up
+* withdrawal of consent, and other.
 
-In clinical trials of treatments for chronic pain, the percentage of participants who withdraw early can be as high as 50%. Major
-reasons for early withdrawal in these studies include perceived lack of efficacy and adverse events. Commonly used strategies for
-accommodating missing data include last observation carried forward, baseline observation carried forward, and more principled
-methods such as mixed-model repeated-measures and multiple imputation.
+Methods to handle missing data require strong and untestable assumptions, e.g. MCAR or MAR. 
+
+The method called control-based imputation might be suitable for chronic pain analysis, since it allows a variety of assumptions to be made concerning the conditional distribution outcomes. 
 
 Methods mentioned 
 
@@ -53,10 +54,10 @@ Methods mentioned
 |Complete case (CC) |  MCAR | | |
 |Last observation carried forward (LOCF)| Measurement remains at the same level | |
 |Baseline observation carried forward (BOCF)|Measurement remains at the same level | | 
-| Mixed-model repeated-measures (MMRM) | MAR | | |
+|Mixed-model repeated-measures (MMRM) | MAR | | |
 |Multiple imputation (MI)| MAR |  | |
 |Weighted generalized estimating equations| MAR | | |
-|Control-based imputation|||  | 
+|Trimmed means|Treat drop-offs as bad outcomes | | | 
 
 ### Estimands in a Chronic Pain Trial: Challenges and Opportunities
 Francesca Callegari et. all
@@ -113,3 +114,11 @@ Omar B. Mbowe et. al.
 
 ### Model misspecification: finite mixture or homogeneous?
 
+
+
+
+## Thoughts 
+
+Do not have trajectory information 
+
+d
