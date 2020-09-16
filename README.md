@@ -1,4 +1,4 @@
-# PainStudy
+# Pain Study
 
 
 #### Goal: 
@@ -122,15 +122,15 @@ Improper analysis were noticed:
 
 Comparison: 
 
-1. Percentage change from baseline, using BOCF to impute missing data 
+* 1. Percentage change from baseline, using BOCF to impute missing data 
 
-* Different bin widths of histograms 
-* Equal bin widths
+   +  Different bin widths of histograms 
+   +  Equal bin widths
 
-2.Absolute change from baseline, using pattern mixture model assuming MAR
+* 2. Absolute change from baseline, using pattern mixture model assuming MAR
 
-* Different bin widths of histograms 
-* Equal bin widths
+   +  Different bin widths of histograms 
+   +  Equal bin widths
 
 Conclusion: 
 
@@ -140,13 +140,11 @@ populations of “responders” and “nonresponders” to pain interventions ex
 support for this hypothesis, nor for the recommendation that pain clinical trials prioritize “responder” analyses, a less efficient analysis
 strategy." 
 
-### Model misspecification: finite mixture or homogeneous?
-
-
 
 
 ## Thoughts 
 
-Do not have trajectory information 
+* The previous trials used the "change score", e.g. absoulte change or percentage change from baseline, or use the baseline score as a variable in regression models, which did not provide enough information about their trajectories. 
 
-d
+* For mssingness handling method, the assumptions are not testable. 
+
