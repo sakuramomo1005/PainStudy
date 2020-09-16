@@ -148,3 +148,11 @@ strategy."
 
 * For mssingness handling method, the assumptions are not testable. 
 
+#### How to compare? 
+
+* handling missing data with multiple imputation 
+
+* what is the analysis method? 
+
+* how to compare? the criterion? 
+
