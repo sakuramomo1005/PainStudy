@@ -17,7 +17,7 @@ Similar as mental health studies
 
 
 ## Estimands in a Chronic Pain Trial: Challenges and Opportunities
-Francesca Callegari et. all
+***Francesca Callegari et. all***
 
 Discussed about the primary estimand and estimation method 
 
