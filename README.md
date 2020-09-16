@@ -22,7 +22,9 @@ Similar as mental health studies
 
 * Missing not at Random (MNAR): Two possible reasons are that the missing value depends on the hypothetical value (e.g. People with high salaries generally do not want to reveal their incomes in surveys) or missing value is dependent on some other variable’s value (e.g. Let’s assume that females generally don’t want to reveal their ages! Here the missing value in age variable is impacted by gender variable)
 
+For chronic pain
 
+* Jump to reference (J2R): Outcomes after dropout immediately switch to be like those from subjects in the placebo group 
 
 ### Estimands and missing data in clinical trials of chronic pain treatments: advances in design and analysis
 Xueya Cai et. al
@@ -39,6 +41,17 @@ In clinical trials of treatments for chronic pain, the percentage of participant
 reasons for early withdrawal in these studies include perceived lack of efficacy and adverse events. Commonly used strategies for
 accommodating missing data include last observation carried forward, baseline observation carried forward, and more principled
 methods such as mixed-model repeated-measures and multiple imputation.
+
+Methods mentioned 
+
+| Method | Assumption | Pros | Cons|
+| --- | --- | --- |--- |
+|Complete case (CC) |  MCAR | | |
+|Last observation carried forward (LOCF)| Measurement remains at the same level | |
+|Baseline observation carried forward (BOCF)|Measurement remains at the same level | | 
+| Mixed-model repeated-measures (MMRM) | MAR | | |
+|Multiple imputation (MI)| MAR |  | |
+|Weighted generalized estimating equations| MAR | | |
 
 
 ### Estimands in a Chronic Pain Trial: Challenges and Opportunities
