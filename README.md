@@ -1,6 +1,18 @@
 # PainStudy
 Pain study
 
+#### Goal: 
+
+* Test medication effects (mean effect among population)
+* Precision medicine, personalized treatment
+
+#### Features: 
+
+Similar as mental health studies
+
+* Longitudinal (trajectory)
+* Heterogeneity 
+* Drop-off
 
 ### Missing data mechanism
 
