@@ -22,6 +22,9 @@ Similar as mental health studies
 
 * Missing not at Random (MNAR): Two possible reasons are that the missing value depends on the hypothetical value (e.g. People with high salaries generally do not want to reveal their incomes in surveys) or missing value is dependent on some other variable’s value (e.g. Let’s assume that females generally don’t want to reveal their ages! Here the missing value in age variable is impacted by gender variable)
 
+```diff
++ Assumption for chronic pain study
+```
 For chronic pain
 
 * Jump to reference (J2R): Outcomes after dropout immediately switch to be like those from subjects in the placebo group 
