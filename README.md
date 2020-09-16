@@ -1,10 +1,10 @@
 # PainStudy
-Pain study
+
 
 #### Goal: 
 
-* Test medication effects (mean effect among population)
-* Precision medicine, personalized treatment
+* Hypothesis test: Test medication effects (mean effect among population)
+* Precision medicine: Make personalized treatment decision rule
 
 #### Features: 
 
