@@ -30,7 +30,7 @@ as “copy reference” where
 the outcomes after dropout gradually switch to be like those from
 subjects in the placebo group
 
-### Estimands and missing data in clinical trials of chronic pain treatments: advances in design and analysis
+## Estimands and missing data in clinical trials of chronic pain treatments: advances in design and analysis
 Xueya Cai et. al
 
 require strong and untestable
