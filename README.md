@@ -33,13 +33,13 @@ Summary measure:
 
 Primary estimation method: 
 
-* Analysis of covariance (ANCOVA) model including region, treatment, gender, use of concomitant pain medication at baseline as factors and baseline age and baseline mean pain intensity score as covariates
+* Analysis of covariance ***(ANCOVA)*** model including region, treatment, gender, use of concomitant pain medication at baseline as factors and baseline age and baseline mean pain intensity score as covariates
 
 * Missing data will be imputed via multiple imputation using the missing at random (MAR) assumption.
 
 
 ## Estimands and missing data in clinical trials of chronic pain treatments: advances in design and analysis
-Xueya Cai et. al
+***Xueya Cai et. al***
 
 In clinical trials of treatments for chronic pain, the percentage of participants who withdraw early can be as high as 50%
 
@@ -86,11 +86,11 @@ The method called control-based imputation might be suitable for chronic pain an
 
 
 ### Demonstrating Heterogeneity of Treatment Effects Among Patients: An Overlooked but Important Step Toward Precision Medicine
-Jennifer S. Gewandter et. al.
+***Jennifer S. Gewandter et. al.***
 
 * 4 RCTs with crossover
 * Mixed effect models are fitted. with patient and treatment-by-patient as random effects 
-* Likelihood ratio test: LME with or without treatment-by-patient effect
+* ***Likelihood ratio test***: LME with or without treatment-by-patient effect
 * The  treatment-by-patient effect is significant within the RCTs
 * Precision medicine is needed
 
